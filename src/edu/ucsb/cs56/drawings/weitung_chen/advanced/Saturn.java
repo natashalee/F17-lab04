@@ -14,6 +14,9 @@ public class Saturn extends Planet implements Shape
 {
     /**
      * Constructor for objects of class Saturn
+     * @param x x coordinate
+     * @param y y coordinate
+     * @param r radius of planet
      */
     public Saturn(double x, double y, double r)
     {

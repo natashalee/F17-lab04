@@ -20,8 +20,7 @@ import edu.ucsb.cs56.drawings.utilities.GeneralPathWrapper;
 public class Planet extends GeneralPathWrapper implements Shape
 {
     /**
-       Constructor
-       
+       Constructor 
        @param x x coord of lower left corner of planet
        @param y y coord of lower left corner of planet
        @param r radius of planet
