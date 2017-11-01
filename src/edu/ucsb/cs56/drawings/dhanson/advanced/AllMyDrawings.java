@@ -67,7 +67,7 @@ public class AllMyDrawings
       
     }
     
-    /** 2 ipadminis and an ipad XL
+    /** 2 iPad minis and an iPad XL
      */
     public static void drawPicture2(Graphics2D g2) {
 	
@@ -105,7 +105,7 @@ public class AllMyDrawings
 	g2.drawString("2 iPad minis and a rotated iPadXL -DH", 20,20);
     }
     
-    /** Draw a different picture with a few iPads ands screens
+    /** Draws a ipad on screen like Apple commercial
      */
     
     public static void drawPicture3(Graphics2D g2) {

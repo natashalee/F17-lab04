@@ -5,7 +5,8 @@ import java.awt.geom.Rectangle2D;
 import java.awt.geom.Ellipse2D;
 
 /**
-   A iPad
+   An iPad that extends screen.
+   The iPad has apps and a homebutton and speakers
       
    @author Dylan Hanson
    @author Phill Conrad
@@ -15,7 +16,7 @@ import java.awt.geom.Ellipse2D;
 public class iPad extends Screen implements Shape
 {
     /**
-     * Constructor for objects of class CoffeeCup
+     * Constructor for objects of class iPad
      */
     public iPad(double x, double y, double width, double height)
     {

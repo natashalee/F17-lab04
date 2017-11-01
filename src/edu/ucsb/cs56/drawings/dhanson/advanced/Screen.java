@@ -9,12 +9,12 @@ import edu.ucsb.cs56.drawings.utilities.ShapeTransforms;
 import edu.ucsb.cs56.drawings.utilities.GeneralPathWrapper;
 
 /**
-   A vector drawing of a house that implements
-   the Shape interface, and so can be drawn, as well as
-   rotated, scaled, etc.
+   A vector drawing of a screen that implements the Shape
+   interface
       
-   @author Phill Conrad 
-   @version for CS56, W16, UCSB
+   @author Phill Conrad
+   @author Dylan Hanson
+   @version for CS56, F17, UCSB
    
 */
 public class Screen extends GeneralPathWrapper implements Shape
@@ -22,10 +22,10 @@ public class Screen extends GeneralPathWrapper implements Shape
     /**
        Constructor
        
-       @param x x coord of lower left corner of house
-       @param y y coord of lower left corner of house
+       @param x x coord of lower left corner of Screen
+       @param y y coord of lower left corner of Screen
        @param width width of the Screen
-       @param height of Screen (including first story and second story)
+       @param height of Screen
     */
     public Screen(double x, double y, double width, double height)
     {
