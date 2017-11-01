@@ -1,4 +1,4 @@
-package edu.ucsb.cs56.drawings.dhanson11;
+package edu.ucsb.cs56.drawings.dhanson;
 
 import javax.swing.*;
 
